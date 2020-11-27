@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DNRegister_Example' do
+  pod 'DNRegister', :path => '../'
+
+  target 'DNRegister_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
